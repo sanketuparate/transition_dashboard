@@ -1,0 +1,50 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.month-selector {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.transactions-table {
+  margin-top: 20px;
+}
+
+/* Search Input Styling */
+.transactions-table .search-input {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Table Styling */
+.transactions-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.transactions-table th, .transactions-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transactions-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.transactions-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+.transactions-table tr:hover {
+  background-color: #f1f1f1;
+}
