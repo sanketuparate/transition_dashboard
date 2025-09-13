@@ -10,7 +10,7 @@ import {
   Legend,
 } from 'chart.js';
 
-// Register the necessary components for the Bar chart
+// Register the necessary components for the Bar chart .
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const BarChart = ({ data }) => {
